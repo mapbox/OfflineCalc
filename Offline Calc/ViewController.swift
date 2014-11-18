@@ -66,7 +66,11 @@ class ViewController: UIViewController, RMMapViewDelegate {
             total += zoomCount
 
             if let formattedTotal = formatter.stringFromNumber(NSNumber(unsignedLong: zoomCount)) {
-                output += "z\(zoom): \(formattedTotal) tiles\n"
+                if (zoom > lowZoom) {
+                    output += "z\(lowZoom)-\(zoom): \(formattedTotal) tiles\n"
+                } else {
+                    output += "z\(zoom): \(formattedTotal) tiles\n"
+                }
             }
         }
 

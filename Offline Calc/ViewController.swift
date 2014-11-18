@@ -31,6 +31,7 @@ class ViewController: UIViewController, RMMapViewDelegate {
         map = RMMapView(frame: view.bounds)
 
         if (map != nil) {
+            map!.autoresizingMask = .FlexibleWidth | .FlexibleHeight
             map!.delegate = self
             view.addSubview(map!)
             mapViewRegionDidChange(map)

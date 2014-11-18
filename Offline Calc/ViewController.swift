@@ -2,13 +2,18 @@ import UIKit
 
 class ViewController: UIViewController, RMMapViewDelegate {
 
+    let tintColor = UIColor(red: 0.120, green: 0.550, blue: 0.670, alpha: 1.000)
+
     var map: RMMapView?
     var centerLabel: UIBarButtonItem?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Offline Calc"
+        navigationController?.navigationBar.tintColor = tintColor
+        view.tintColor = tintColor
+
+        title = "Offline Tile Counts"
         navigationController?.toolbarHidden = false
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Organize,

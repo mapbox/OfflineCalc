@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		DDFBE8341A1BB912009EFAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */; };
 		DDFBE8361A1BB912009EFAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8351A1BB912009EFAE1 /* ViewController.swift */; };
-		DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */; };
 		DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */; };
 		DDFBE88F1A1BB9DC009EFAE1 /* libMapbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFBE88D1A1BB9DC009EFAE1 /* libMapbox.a */; };
 		DDFBE8901A1BB9DC009EFAE1 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE88E1A1BB9DC009EFAE1 /* Mapbox.bundle */; };
 		DDFBE8931A1BBACF009EFAE1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFBE8921A1BBACF009EFAE1 /* libsqlite3.dylib */; };
+		DDFBE8B91A1BCDDB009EFAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE8B81A1BCDDB009EFAE1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,6 @@
 		DDFBE8321A1BB912009EFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDFBE8351A1BB912009EFAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDFBE83D1A1BB912009EFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DDFBE8551A1BB9DC009EFAE1 /* Mapbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapbox.h; sourceTree = "<group>"; };
 		DDFBE8561A1BB9DC009EFAE1 /* RMAbstractMercatorTileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAbstractMercatorTileSource.h; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		DDFBE88E1A1BB9DC009EFAE1 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Mapbox.bundle; path = Mapbox/Mapbox.bundle; sourceTree = SOURCE_ROOT; };
 		DDFBE8911A1BBA11009EFAE1 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		DDFBE8921A1BBACF009EFAE1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DDFBE8B81A1BCDDB009EFAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */,
 				DDFBE8351A1BB912009EFAE1 /* ViewController.swift */,
 				DDFBE8911A1BBA11009EFAE1 /* Bridging-Header.h */,
-				DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */,
+				DDFBE8B81A1BCDDB009EFAE1 /* Images.xcassets */,
 				DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */,
 				DDFBE8311A1BB912009EFAE1 /* Supporting Files */,
 			);
@@ -269,8 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFBE8B91A1BCDDB009EFAE1 /* Images.xcassets in Resources */,
 				DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */,
-				DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */,
 				DDFBE8901A1BB9DC009EFAE1 /* Mapbox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +390,7 @@
 					"\"$(SRCROOT)/Mapbox/Headers\"",
 				);
 				INFOPLIST_FILE = "Offline Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,6 +411,7 @@
 					"\"$(SRCROOT)/Mapbox/Headers\"",
 				);
 				INFOPLIST_FILE = "Offline Calc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

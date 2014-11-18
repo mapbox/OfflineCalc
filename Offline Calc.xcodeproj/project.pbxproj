@@ -9,33 +9,80 @@
 /* Begin PBXBuildFile section */
 		DDFBE8341A1BB912009EFAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */; };
 		DDFBE8361A1BB912009EFAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8351A1BB912009EFAE1 /* ViewController.swift */; };
-		DDFBE8391A1BB912009EFAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE8371A1BB912009EFAE1 /* Main.storyboard */; };
 		DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */; };
 		DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */; };
-		DDFBE84A1A1BB912009EFAE1 /* Offline_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */; };
+		DDFBE88F1A1BB9DC009EFAE1 /* libMapbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFBE88D1A1BB9DC009EFAE1 /* libMapbox.a */; };
+		DDFBE8901A1BB9DC009EFAE1 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE88E1A1BB9DC009EFAE1 /* Mapbox.bundle */; };
+		DDFBE8931A1BBACF009EFAE1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFBE8921A1BBACF009EFAE1 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DDFBE8441A1BB912009EFAE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDFBE8261A1BB912009EFAE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DDFBE82D1A1BB912009EFAE1;
-			remoteInfo = "Offline Calc";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offline Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFBE8321A1BB912009EFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDFBE8351A1BB912009EFAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDFBE8381A1BB912009EFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDFBE83D1A1BB912009EFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Offline CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFBE8481A1BB912009EFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offline_CalcTests.swift; sourceTree = "<group>"; };
+		DDFBE8551A1BB9DC009EFAE1 /* Mapbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapbox.h; sourceTree = "<group>"; };
+		DDFBE8561A1BB9DC009EFAE1 /* RMAbstractMercatorTileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAbstractMercatorTileSource.h; sourceTree = "<group>"; };
+		DDFBE8571A1BB9DC009EFAE1 /* RMAbstractWebMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAbstractWebMapSource.h; sourceTree = "<group>"; };
+		DDFBE8581A1BB9DC009EFAE1 /* RMAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAnnotation.h; sourceTree = "<group>"; };
+		DDFBE8591A1BB9DC009EFAE1 /* RMAttributionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAttributionViewController.h; sourceTree = "<group>"; };
+		DDFBE85A1A1BB9DC009EFAE1 /* RMBingSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBingSource.h; sourceTree = "<group>"; };
+		DDFBE85B1A1BB9DC009EFAE1 /* RMCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCacheObject.h; sourceTree = "<group>"; };
+		DDFBE85C1A1BB9DC009EFAE1 /* RMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCircle.h; sourceTree = "<group>"; };
+		DDFBE85D1A1BB9DC009EFAE1 /* RMCircleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCircleAnnotation.h; sourceTree = "<group>"; };
+		DDFBE85E1A1BB9DC009EFAE1 /* RMCompositeSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCompositeSource.h; sourceTree = "<group>"; };
+		DDFBE85F1A1BB9DC009EFAE1 /* RMConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMConfiguration.h; sourceTree = "<group>"; };
+		DDFBE8601A1BB9DC009EFAE1 /* RMCoordinateGridSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCoordinateGridSource.h; sourceTree = "<group>"; };
+		DDFBE8611A1BB9DC009EFAE1 /* RMDatabaseCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDatabaseCache.h; sourceTree = "<group>"; };
+		DDFBE8621A1BB9DC009EFAE1 /* RMDBMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDBMapSource.h; sourceTree = "<group>"; };
+		DDFBE8631A1BB9DC009EFAE1 /* RMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFoundation.h; sourceTree = "<group>"; };
+		DDFBE8641A1BB9DC009EFAE1 /* RMFractalTileProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFractalTileProjection.h; sourceTree = "<group>"; };
+		DDFBE8651A1BB9DC009EFAE1 /* RMGenericMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMGenericMapSource.h; sourceTree = "<group>"; };
+		DDFBE8661A1BB9DC009EFAE1 /* RMGlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMGlobalConstants.h; sourceTree = "<group>"; };
+		DDFBE8671A1BB9DC009EFAE1 /* RMGreatCircleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMGreatCircleAnnotation.h; sourceTree = "<group>"; };
+		DDFBE8681A1BB9DC009EFAE1 /* RMInteractiveSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMInteractiveSource.h; sourceTree = "<group>"; };
+		DDFBE8691A1BB9DC009EFAE1 /* RMLoadingTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLoadingTileView.h; sourceTree = "<group>"; };
+		DDFBE86A1A1BB9DC009EFAE1 /* RMMapboxSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapboxSource.h; sourceTree = "<group>"; };
+		DDFBE86B1A1BB9DC009EFAE1 /* RMMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapLayer.h; sourceTree = "<group>"; };
+		DDFBE86C1A1BB9DC009EFAE1 /* RMMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapOverlayView.h; sourceTree = "<group>"; };
+		DDFBE86D1A1BB9DC009EFAE1 /* RMMapQuestOpenAerialSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapQuestOpenAerialSource.h; sourceTree = "<group>"; };
+		DDFBE86E1A1BB9DC009EFAE1 /* RMMapQuestOSMSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapQuestOSMSource.h; sourceTree = "<group>"; };
+		DDFBE86F1A1BB9DC009EFAE1 /* RMMapScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapScrollView.h; sourceTree = "<group>"; };
+		DDFBE8701A1BB9DC009EFAE1 /* RMMapTiledLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapTiledLayerView.h; sourceTree = "<group>"; };
+		DDFBE8711A1BB9DC009EFAE1 /* RMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapView.h; sourceTree = "<group>"; };
+		DDFBE8721A1BB9DC009EFAE1 /* RMMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMapViewDelegate.h; sourceTree = "<group>"; };
+		DDFBE8731A1BB9DC009EFAE1 /* RMMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMarker.h; sourceTree = "<group>"; };
+		DDFBE8741A1BB9DC009EFAE1 /* RMMBTilesSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMBTilesSource.h; sourceTree = "<group>"; };
+		DDFBE8751A1BB9DC009EFAE1 /* RMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMemoryCache.h; sourceTree = "<group>"; };
+		DDFBE8761A1BB9DC009EFAE1 /* RMNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMNotifications.h; sourceTree = "<group>"; };
+		DDFBE8771A1BB9DC009EFAE1 /* RMOpenCycleMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMOpenCycleMapSource.h; sourceTree = "<group>"; };
+		DDFBE8781A1BB9DC009EFAE1 /* RMOpenSeaMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMOpenSeaMapLayer.h; sourceTree = "<group>"; };
+		DDFBE8791A1BB9DC009EFAE1 /* RMOpenSeaMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMOpenSeaMapSource.h; sourceTree = "<group>"; };
+		DDFBE87A1A1BB9DC009EFAE1 /* RMOpenStreetMapSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMOpenStreetMapSource.h; sourceTree = "<group>"; };
+		DDFBE87B1A1BB9DC009EFAE1 /* RMPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPixel.h; sourceTree = "<group>"; };
+		DDFBE87C1A1BB9DC009EFAE1 /* RMPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPointAnnotation.h; sourceTree = "<group>"; };
+		DDFBE87D1A1BB9DC009EFAE1 /* RMPolygonAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPolygonAnnotation.h; sourceTree = "<group>"; };
+		DDFBE87E1A1BB9DC009EFAE1 /* RMPolylineAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPolylineAnnotation.h; sourceTree = "<group>"; };
+		DDFBE87F1A1BB9DC009EFAE1 /* RMProjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMProjection.h; sourceTree = "<group>"; };
+		DDFBE8801A1BB9DC009EFAE1 /* RMQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMQuadTree.h; sourceTree = "<group>"; };
+		DDFBE8811A1BB9DC009EFAE1 /* RMShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMShape.h; sourceTree = "<group>"; };
+		DDFBE8821A1BB9DC009EFAE1 /* RMShapeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMShapeAnnotation.h; sourceTree = "<group>"; };
+		DDFBE8831A1BB9DC009EFAE1 /* RMStaticMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMStaticMapView.h; sourceTree = "<group>"; };
+		DDFBE8841A1BB9DC009EFAE1 /* RMTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTile.h; sourceTree = "<group>"; };
+		DDFBE8851A1BB9DC009EFAE1 /* RMTileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileCache.h; sourceTree = "<group>"; };
+		DDFBE8861A1BB9DC009EFAE1 /* RMTileCacheDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileCacheDownloadOperation.h; sourceTree = "<group>"; };
+		DDFBE8871A1BB9DC009EFAE1 /* RMTileImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileImage.h; sourceTree = "<group>"; };
+		DDFBE8881A1BB9DC009EFAE1 /* RMTileMillSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileMillSource.h; sourceTree = "<group>"; };
+		DDFBE8891A1BB9DC009EFAE1 /* RMTileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileSource.h; sourceTree = "<group>"; };
+		DDFBE88A1A1BB9DC009EFAE1 /* RMTileSourcesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTileSourcesContainer.h; sourceTree = "<group>"; };
+		DDFBE88B1A1BB9DC009EFAE1 /* RMUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMUserLocation.h; sourceTree = "<group>"; };
+		DDFBE88C1A1BB9DC009EFAE1 /* RMUserTrackingBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMUserTrackingBarButtonItem.h; sourceTree = "<group>"; };
+		DDFBE88D1A1BB9DC009EFAE1 /* libMapbox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMapbox.a; path = Mapbox/libMapbox.a; sourceTree = SOURCE_ROOT; };
+		DDFBE88E1A1BB9DC009EFAE1 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Mapbox.bundle; path = Mapbox/Mapbox.bundle; sourceTree = SOURCE_ROOT; };
+		DDFBE8911A1BBA11009EFAE1 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DDFBE8921A1BBACF009EFAE1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDFBE8401A1BB912009EFAE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DDFBE88F1A1BB9DC009EFAE1 /* libMapbox.a in Frameworks */,
+				DDFBE8931A1BBACF009EFAE1 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DDFBE8301A1BB912009EFAE1 /* Offline Calc */,
-				DDFBE8461A1BB912009EFAE1 /* Offline CalcTests */,
+				DDFBE8531A1BB9D0009EFAE1 /* Mapbox */,
 				DDFBE82F1A1BB912009EFAE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */,
-				DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +120,7 @@
 			children = (
 				DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */,
 				DDFBE8351A1BB912009EFAE1 /* ViewController.swift */,
-				DDFBE8371A1BB912009EFAE1 /* Main.storyboard */,
+				DDFBE8911A1BBA11009EFAE1 /* Bridging-Header.h */,
 				DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */,
 				DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */,
 				DDFBE8311A1BB912009EFAE1 /* Supporting Files */,
@@ -95,22 +136,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DDFBE8461A1BB912009EFAE1 /* Offline CalcTests */ = {
+		DDFBE8531A1BB9D0009EFAE1 /* Mapbox */ = {
 			isa = PBXGroup;
 			children = (
-				DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */,
-				DDFBE8471A1BB912009EFAE1 /* Supporting Files */,
+				DDFBE8541A1BB9DC009EFAE1 /* Headers */,
+				DDFBE88D1A1BB9DC009EFAE1 /* libMapbox.a */,
+				DDFBE88E1A1BB9DC009EFAE1 /* Mapbox.bundle */,
+				DDFBE8921A1BBACF009EFAE1 /* libsqlite3.dylib */,
 			);
-			path = "Offline CalcTests";
+			name = Mapbox;
+			path = "Offline Calc";
 			sourceTree = "<group>";
 		};
-		DDFBE8471A1BB912009EFAE1 /* Supporting Files */ = {
+		DDFBE8541A1BB9DC009EFAE1 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DDFBE8481A1BB912009EFAE1 /* Info.plist */,
+				DDFBE8551A1BB9DC009EFAE1 /* Mapbox.h */,
+				DDFBE8561A1BB9DC009EFAE1 /* RMAbstractMercatorTileSource.h */,
+				DDFBE8571A1BB9DC009EFAE1 /* RMAbstractWebMapSource.h */,
+				DDFBE8581A1BB9DC009EFAE1 /* RMAnnotation.h */,
+				DDFBE8591A1BB9DC009EFAE1 /* RMAttributionViewController.h */,
+				DDFBE85A1A1BB9DC009EFAE1 /* RMBingSource.h */,
+				DDFBE85B1A1BB9DC009EFAE1 /* RMCacheObject.h */,
+				DDFBE85C1A1BB9DC009EFAE1 /* RMCircle.h */,
+				DDFBE85D1A1BB9DC009EFAE1 /* RMCircleAnnotation.h */,
+				DDFBE85E1A1BB9DC009EFAE1 /* RMCompositeSource.h */,
+				DDFBE85F1A1BB9DC009EFAE1 /* RMConfiguration.h */,
+				DDFBE8601A1BB9DC009EFAE1 /* RMCoordinateGridSource.h */,
+				DDFBE8611A1BB9DC009EFAE1 /* RMDatabaseCache.h */,
+				DDFBE8621A1BB9DC009EFAE1 /* RMDBMapSource.h */,
+				DDFBE8631A1BB9DC009EFAE1 /* RMFoundation.h */,
+				DDFBE8641A1BB9DC009EFAE1 /* RMFractalTileProjection.h */,
+				DDFBE8651A1BB9DC009EFAE1 /* RMGenericMapSource.h */,
+				DDFBE8661A1BB9DC009EFAE1 /* RMGlobalConstants.h */,
+				DDFBE8671A1BB9DC009EFAE1 /* RMGreatCircleAnnotation.h */,
+				DDFBE8681A1BB9DC009EFAE1 /* RMInteractiveSource.h */,
+				DDFBE8691A1BB9DC009EFAE1 /* RMLoadingTileView.h */,
+				DDFBE86A1A1BB9DC009EFAE1 /* RMMapboxSource.h */,
+				DDFBE86B1A1BB9DC009EFAE1 /* RMMapLayer.h */,
+				DDFBE86C1A1BB9DC009EFAE1 /* RMMapOverlayView.h */,
+				DDFBE86D1A1BB9DC009EFAE1 /* RMMapQuestOpenAerialSource.h */,
+				DDFBE86E1A1BB9DC009EFAE1 /* RMMapQuestOSMSource.h */,
+				DDFBE86F1A1BB9DC009EFAE1 /* RMMapScrollView.h */,
+				DDFBE8701A1BB9DC009EFAE1 /* RMMapTiledLayerView.h */,
+				DDFBE8711A1BB9DC009EFAE1 /* RMMapView.h */,
+				DDFBE8721A1BB9DC009EFAE1 /* RMMapViewDelegate.h */,
+				DDFBE8731A1BB9DC009EFAE1 /* RMMarker.h */,
+				DDFBE8741A1BB9DC009EFAE1 /* RMMBTilesSource.h */,
+				DDFBE8751A1BB9DC009EFAE1 /* RMMemoryCache.h */,
+				DDFBE8761A1BB9DC009EFAE1 /* RMNotifications.h */,
+				DDFBE8771A1BB9DC009EFAE1 /* RMOpenCycleMapSource.h */,
+				DDFBE8781A1BB9DC009EFAE1 /* RMOpenSeaMapLayer.h */,
+				DDFBE8791A1BB9DC009EFAE1 /* RMOpenSeaMapSource.h */,
+				DDFBE87A1A1BB9DC009EFAE1 /* RMOpenStreetMapSource.h */,
+				DDFBE87B1A1BB9DC009EFAE1 /* RMPixel.h */,
+				DDFBE87C1A1BB9DC009EFAE1 /* RMPointAnnotation.h */,
+				DDFBE87D1A1BB9DC009EFAE1 /* RMPolygonAnnotation.h */,
+				DDFBE87E1A1BB9DC009EFAE1 /* RMPolylineAnnotation.h */,
+				DDFBE87F1A1BB9DC009EFAE1 /* RMProjection.h */,
+				DDFBE8801A1BB9DC009EFAE1 /* RMQuadTree.h */,
+				DDFBE8811A1BB9DC009EFAE1 /* RMShape.h */,
+				DDFBE8821A1BB9DC009EFAE1 /* RMShapeAnnotation.h */,
+				DDFBE8831A1BB9DC009EFAE1 /* RMStaticMapView.h */,
+				DDFBE8841A1BB9DC009EFAE1 /* RMTile.h */,
+				DDFBE8851A1BB9DC009EFAE1 /* RMTileCache.h */,
+				DDFBE8861A1BB9DC009EFAE1 /* RMTileCacheDownloadOperation.h */,
+				DDFBE8871A1BB9DC009EFAE1 /* RMTileImage.h */,
+				DDFBE8881A1BB9DC009EFAE1 /* RMTileMillSource.h */,
+				DDFBE8891A1BB9DC009EFAE1 /* RMTileSource.h */,
+				DDFBE88A1A1BB9DC009EFAE1 /* RMTileSourcesContainer.h */,
+				DDFBE88B1A1BB9DC009EFAE1 /* RMUserLocation.h */,
+				DDFBE88C1A1BB9DC009EFAE1 /* RMUserTrackingBarButtonItem.h */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			name = Headers;
+			path = Mapbox/Headers;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -132,24 +232,6 @@
 			productReference = DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDFBE8421A1BB912009EFAE1 /* Offline CalcTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DDFBE8501A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline CalcTests" */;
-			buildPhases = (
-				DDFBE83F1A1BB912009EFAE1 /* Sources */,
-				DDFBE8401A1BB912009EFAE1 /* Frameworks */,
-				DDFBE8411A1BB912009EFAE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DDFBE8451A1BB912009EFAE1 /* PBXTargetDependency */,
-			);
-			name = "Offline CalcTests";
-			productName = "Offline CalcTests";
-			productReference = DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +243,6 @@
 				TargetAttributes = {
 					DDFBE82D1A1BB912009EFAE1 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					DDFBE8421A1BB912009EFAE1 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = DDFBE82D1A1BB912009EFAE1;
 					};
 				};
 			};
@@ -182,7 +260,6 @@
 			projectRoot = "";
 			targets = (
 				DDFBE82D1A1BB912009EFAE1 /* Offline Calc */,
-				DDFBE8421A1BB912009EFAE1 /* Offline CalcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFBE8391A1BB912009EFAE1 /* Main.storyboard in Resources */,
 				DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */,
 				DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DDFBE8411A1BB912009EFAE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DDFBE8901A1BB9DC009EFAE1 /* Mapbox.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,33 +287,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDFBE83F1A1BB912009EFAE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDFBE84A1A1BB912009EFAE1 /* Offline_CalcTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DDFBE8451A1BB912009EFAE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDFBE82D1A1BB912009EFAE1 /* Offline Calc */;
-			targetProxy = DDFBE8441A1BB912009EFAE1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		DDFBE8371A1BB912009EFAE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDFBE8381A1BB912009EFAE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,9 +384,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox/Headers\"",
+				);
 				INFOPLIST_FILE = "Offline Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mapbox",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Offline Calc/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -348,43 +404,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Mapbox/Headers\"",
+				);
 				INFOPLIST_FILE = "Offline Calc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DDFBE8511A1BB912009EFAE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Mapbox",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Offline CalcTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offline Calc.app/Offline Calc";
-			};
-			name = Debug;
-		};
-		DDFBE8521A1BB912009EFAE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Offline CalcTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offline Calc.app/Offline Calc";
+				SWIFT_OBJC_BRIDGING_HEADER = "Offline Calc/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,14 +437,6 @@
 			buildConfigurations = (
 				DDFBE84E1A1BB912009EFAE1 /* Debug */,
 				DDFBE84F1A1BB912009EFAE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DDFBE8501A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline CalcTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDFBE8511A1BB912009EFAE1 /* Debug */,
-				DDFBE8521A1BB912009EFAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

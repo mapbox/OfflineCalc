@@ -54,13 +54,20 @@ class ViewController: UIViewController, RMMapViewDelegate {
 
         var total: UInt = 0
 
+        let formatter = NSNumberFormatter()
+        formatter.groupingSeparator = ","
+        formatter.usesGroupingSeparator = true
+
         for zoom in lowZoom...highZoom {
             let zoomCount = map!.tileCache.tileCountForSouthWest(bbox.southWest,
                                                                  northEast: bbox.northEast,
                                                                  minZoom: lowZoom,
                                                                  maxZoom: zoom)
             total += zoomCount
-            output += "z\(zoom): \(zoomCount) tiles\n"
+
+            if let formattedTotal = formatter.stringFromNumber(NSNumber(unsignedLong: zoomCount)) {
+                output += "z\(zoom): \(formattedTotal) tiles\n"
+            }
         }
 
         let alert = UIAlertController(title: "Tile Counts",

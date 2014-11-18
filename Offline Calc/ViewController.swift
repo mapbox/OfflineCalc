@@ -90,7 +90,10 @@ class ViewController: UIViewController, RMMapViewDelegate {
     }
 
     func mapViewRegionDidChange(mapView: RMMapView!) {
-        centerLabel!.title = NSString(format: "lat: %.5f, lon: %.5f, z: %.2f", mapView.centerCoordinate.latitude, mapView.centerCoordinate.longitude, mapView.zoom)
+        centerLabel!.title = NSString(format: "lat: %.5f, lon: %.5f, z: %.2f", 
+                                      mapView.centerCoordinate.latitude, 
+                                      mapView.centerCoordinate.longitude, 
+                                      mapView.zoom)
     }
 
 }

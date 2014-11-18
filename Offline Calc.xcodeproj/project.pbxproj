@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFBE8341A1BB912009EFAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */; };
+		DDFBE8361A1BB912009EFAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8351A1BB912009EFAE1 /* ViewController.swift */; };
+		DDFBE8391A1BB912009EFAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE8371A1BB912009EFAE1 /* Main.storyboard */; };
+		DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */; };
+		DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */; };
+		DDFBE84A1A1BB912009EFAE1 /* Offline_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFBE8441A1BB912009EFAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFBE8261A1BB912009EFAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFBE82D1A1BB912009EFAE1;
+			remoteInfo = "Offline Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Offline Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFBE8321A1BB912009EFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDFBE8351A1BB912009EFAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDFBE8381A1BB912009EFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDFBE83D1A1BB912009EFAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Offline CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFBE8481A1BB912009EFAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offline_CalcTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFBE82B1A1BB912009EFAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFBE8401A1BB912009EFAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFBE8251A1BB912009EFAE1 = {
+			isa = PBXGroup;
+			children = (
+				DDFBE8301A1BB912009EFAE1 /* Offline Calc */,
+				DDFBE8461A1BB912009EFAE1 /* Offline CalcTests */,
+				DDFBE82F1A1BB912009EFAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFBE82F1A1BB912009EFAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */,
+				DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFBE8301A1BB912009EFAE1 /* Offline Calc */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBE8331A1BB912009EFAE1 /* AppDelegate.swift */,
+				DDFBE8351A1BB912009EFAE1 /* ViewController.swift */,
+				DDFBE8371A1BB912009EFAE1 /* Main.storyboard */,
+				DDFBE83A1A1BB912009EFAE1 /* Images.xcassets */,
+				DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */,
+				DDFBE8311A1BB912009EFAE1 /* Supporting Files */,
+			);
+			path = "Offline Calc";
+			sourceTree = "<group>";
+		};
+		DDFBE8311A1BB912009EFAE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBE8321A1BB912009EFAE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFBE8461A1BB912009EFAE1 /* Offline CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBE8491A1BB912009EFAE1 /* Offline_CalcTests.swift */,
+				DDFBE8471A1BB912009EFAE1 /* Supporting Files */,
+			);
+			path = "Offline CalcTests";
+			sourceTree = "<group>";
+		};
+		DDFBE8471A1BB912009EFAE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBE8481A1BB912009EFAE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFBE82D1A1BB912009EFAE1 /* Offline Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFBE84D1A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline Calc" */;
+			buildPhases = (
+				DDFBE82A1A1BB912009EFAE1 /* Sources */,
+				DDFBE82B1A1BB912009EFAE1 /* Frameworks */,
+				DDFBE82C1A1BB912009EFAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Offline Calc";
+			productName = "Offline Calc";
+			productReference = DDFBE82E1A1BB912009EFAE1 /* Offline Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFBE8421A1BB912009EFAE1 /* Offline CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFBE8501A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline CalcTests" */;
+			buildPhases = (
+				DDFBE83F1A1BB912009EFAE1 /* Sources */,
+				DDFBE8401A1BB912009EFAE1 /* Frameworks */,
+				DDFBE8411A1BB912009EFAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFBE8451A1BB912009EFAE1 /* PBXTargetDependency */,
+			);
+			name = "Offline CalcTests";
+			productName = "Offline CalcTests";
+			productReference = DDFBE8431A1BB912009EFAE1 /* Offline CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFBE8261A1BB912009EFAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mapbox;
+				TargetAttributes = {
+					DDFBE82D1A1BB912009EFAE1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DDFBE8421A1BB912009EFAE1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DDFBE82D1A1BB912009EFAE1;
+					};
+				};
+			};
+			buildConfigurationList = DDFBE8291A1BB912009EFAE1 /* Build configuration list for PBXProject "Offline Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFBE8251A1BB912009EFAE1;
+			productRefGroup = DDFBE82F1A1BB912009EFAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFBE82D1A1BB912009EFAE1 /* Offline Calc */,
+				DDFBE8421A1BB912009EFAE1 /* Offline CalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFBE82C1A1BB912009EFAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFBE8391A1BB912009EFAE1 /* Main.storyboard in Resources */,
+				DDFBE83E1A1BB912009EFAE1 /* LaunchScreen.xib in Resources */,
+				DDFBE83B1A1BB912009EFAE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFBE8411A1BB912009EFAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFBE82A1A1BB912009EFAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFBE8361A1BB912009EFAE1 /* ViewController.swift in Sources */,
+				DDFBE8341A1BB912009EFAE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFBE83F1A1BB912009EFAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFBE84A1A1BB912009EFAE1 /* Offline_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFBE8451A1BB912009EFAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFBE82D1A1BB912009EFAE1 /* Offline Calc */;
+			targetProxy = DDFBE8441A1BB912009EFAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFBE8371A1BB912009EFAE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFBE8381A1BB912009EFAE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFBE83C1A1BB912009EFAE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFBE83D1A1BB912009EFAE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFBE84B1A1BB912009EFAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDFBE84C1A1BB912009EFAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFBE84E1A1BB912009EFAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Offline Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDFBE84F1A1BB912009EFAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Offline Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDFBE8511A1BB912009EFAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Offline CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offline Calc.app/Offline Calc";
+			};
+			name = Debug;
+		};
+		DDFBE8521A1BB912009EFAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Offline CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Offline Calc.app/Offline Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFBE8291A1BB912009EFAE1 /* Build configuration list for PBXProject "Offline Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFBE84B1A1BB912009EFAE1 /* Debug */,
+				DDFBE84C1A1BB912009EFAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFBE84D1A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFBE84E1A1BB912009EFAE1 /* Debug */,
+				DDFBE84F1A1BB912009EFAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFBE8501A1BB912009EFAE1 /* Build configuration list for PBXNativeTarget "Offline CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFBE8511A1BB912009EFAE1 /* Debug */,
+				DDFBE8521A1BB912009EFAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFBE8261A1BB912009EFAE1 /* Project object */;
+}
